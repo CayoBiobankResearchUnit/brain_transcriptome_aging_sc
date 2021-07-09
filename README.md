@@ -36,7 +36,7 @@ This pipeline picks up from the outputs of [bbi-lab/bbi-dmux](https://github.com
 
 * Demultiplexed, dedepulicated BAM files should be located in the `bam/` folder with the naming convention `<library ID>.bam`. Each bam file contains all mapped reads for an animal, with duplicate sci-RNA-seq barcodes and UMIs removed. BAM headers contain barcode information, which is not needed once the cds is generated.
 
-* A library metadata file should be placed in `data/metadata_dlpfc`
+* A library metadata file should be placed in `data/metadata_dlpfc.txt`
 
 # Pipeline
 
